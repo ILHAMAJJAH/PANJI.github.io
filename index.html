@@ -3,9 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portofolio Saya</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Warna biru muda */
+            color: #333; /* Warna teks */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background: linear-gradient(to right, #63a69f, #00bcd4); /* Gradien warna biru muda ke biru tua */
+            color: #fff; /* Warna teks putih */
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Navigation styles */
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333; /* Warna teks */
+            font-weight: bold;
+        }
+
+        /* Section styles */
+        section {
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Project styles */
+        .project {
+            margin: 2rem;
+        }
+
+        .project img {
+            max-width: 100%;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333; /* Warna latar belakang hitam */
+            color: #fff; /* Warna teks putih */
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            nav ul {
+                padding-top: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h3>THIS IS MY PORTOFOLIO</h3>
+    <header>
+        <h1>Portofolio Saya</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Tentang Saya</a></li>
+            <li><a href="#portfolio">Portofolio</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Selamat datang di portofolio saya! Saya adalah seorang programmer dengan pengalaman dalam pengembangan web dan aplikasi.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portofolio</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Proyek 1">
+            <h3>Proyek 1</h3>
+            <p>Deskripsi proyek 1.</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Proyek 2">
+            <h3>Proyek 2</h3>
+            <p>Deskripsi proyek 2.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Silakan hubungi saya di alamat email@example.com.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Portofolio Saya</p>
+    </footer>
 </body>
 </html>
