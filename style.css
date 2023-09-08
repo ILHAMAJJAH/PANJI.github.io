@@ -78,3 +78,52 @@ footer {
         padding-top: 2rem;
     }
 }
+
+/* Gambar profil bulat */
+.round-image {
+    border-radius: 50%; /* Membuat gambar berbentuk bulat */
+    width: 150px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+    height: 150px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+    display: block;
+    margin: 0 auto; /* Pusatkan gambar di tengah */
+}
+
+/* Gaya untuk kontainer gambar profil */
+.profile-image {
+    text-align: center; /* Pusatkan gambar profil */
+    margin-bottom: 20px;
+}
+.profile-card img {
+    width: 130px; /* Sesuaikan ukuran yang Anda inginkan */
+    position: absolute;
+    top: 20px; /* Sesuaikan jarak dari atas */
+    left: 20px; /* Sesuaikan jarak dari kiri */
+}
+
+/* Gaya dasar navbar */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s; /* Efek transisi saat perubahan warna */
+}
+
+/* Efek hover saat kursor mendekati tautan */
+nav ul li a:hover {
+    color: blue; /* Warna biru saat hover */
+}
